@@ -7,6 +7,6 @@ const target = document.querySelector('.gallery__large-img');
 buttons.forEach((button) => {
   button.addEventListener('click', (e) => {
     e.preventDefault();
-    target.src = button.href;
+    button.getAttribute('href');
   });
 });
